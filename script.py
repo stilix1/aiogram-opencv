@@ -25,4 +25,4 @@ def ocr_core(src, language='rus+eng'):
         os.remove(path)
         return text
     else:
-        raise Exception('Не удалось найти файл на фото!')
+        raise Exception('Can\'t find text on photo')
